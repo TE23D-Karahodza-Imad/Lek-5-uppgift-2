@@ -1,6 +1,67 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    align-items: center;
+}
+
+
+
 h1{
 
 display: flex;
 justify-content: center;
+border: 2PX black solid;
+height: 90%;
+align-items: center;
+border-radius: 5px;
+}
 
+img{
+    height:99%;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    border: black solid 2px;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    border-radius: 5px;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    border: black solid 2px;
+    height: 30%;
+    width: 98%;
+    align-items: center;
+    border-radius: 5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 2px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 2px;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
 }
